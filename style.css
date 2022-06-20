@@ -1,0 +1,11 @@
+body {
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-image: url(./img/computer.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
