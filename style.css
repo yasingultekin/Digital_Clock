@@ -22,6 +22,7 @@ body {
     letter-spacing: 0;
 }
 
+
 @media (max-width: 1260px) {
 
     body {
@@ -37,5 +38,32 @@ body {
 
     .span {
         font-size: 1rem;
+    }
+}
+@media (max-width: 900px) {
+
+    /* body {
+        background-size: contain;
+    } */
+
+    .container {
+        margin-top: -7rem;
+        letter-spacing: 0;
+        font-size: 1.6rem;
+    }
+
+    .span {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 720px) {
+    .container {
+        margin-top: -6rem;
+        padding-right: 1.2rem;
+        font-size: 1.4rem;
+    }
+
+    .span {
+        font-size: .8rem;
     }
 }
