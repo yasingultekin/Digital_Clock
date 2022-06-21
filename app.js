@@ -12,3 +12,5 @@ function showTime() {
     let hours = dateTime.getHours();
     //   console.log(hours);
 }
+
+setInterval(showTime, 1000);
