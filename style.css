@@ -9,3 +9,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.container {
+    margin-top: -13rem;
+    font-size: 3rem;
+    padding-right: 2rem;
+    letter-spacing:3px;
+ }
