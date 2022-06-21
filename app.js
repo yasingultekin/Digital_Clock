@@ -6,4 +6,9 @@ function showTime() {
 
     let time = dateTime.toLocaleTimeString();
     //   console.log(time);
+
+    clock.innerHTML = time;
+
+    let hours = dateTime.getHours();
+    //   console.log(hours);
 }
